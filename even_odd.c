@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int num;
-    printf("Enter an integer: ");
+    printf("Enter an integer:\n");
     scanf("%d", &num);
     // True if num is perfectly divisible by 2
     if(num % 2 == 0)
